@@ -12,7 +12,7 @@ sudo dnf update && sudo dnf upgrade
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf groupupdate core
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo dnf install zsh tmux neofetch sl cmatrix curl htop piper wget python3.11 git
+sudo dnf install zsh tmux neofetch sl cmatrix curl htop piper wget python3.11 git vlc
 git config --global user.name "mohammad_alj"
 git config --global user.email "xqg1122@gmail.com"
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
