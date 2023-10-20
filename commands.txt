@@ -13,6 +13,8 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 sudo dnf groupupdate core
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo dnf install zsh tmux neofetch sl cmatrix curl wget python3.11 git
+git config --global user.name "mohammad_alj"
+git config --global user.email "xqg1122@gmail.com"
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 curl -fsSL https://bun.sh/install | bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
